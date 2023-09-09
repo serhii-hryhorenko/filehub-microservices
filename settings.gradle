@@ -1,0 +1,6 @@
+rootProject.name = 'FileHub'
+include 'api-gateway'
+include 'authentication-service'
+include 'registration-service'
+include 'storage-service'
+
