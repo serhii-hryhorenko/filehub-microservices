@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+.not-found {
+    background: #3498DB;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1.not-found-text {
+    font-size: 30vh;
+}
+
+h2.not-found-text span {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h3.not-found-text a:link, h3.not-found-text a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+h3.not-found-text a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #3498DB;
+    cursor: pointer;
+}
