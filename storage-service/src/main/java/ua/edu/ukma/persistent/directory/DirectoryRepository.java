@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository("directoryRepository")
-public interface DirectoryRepository extends JpaRepository<DirectoryRecord, DirectoryId> {
-    List<DirectoryId> findDirectoryRecordsByParentId(DirectoryId parentId);
-
+public interface DirectoryRepository extends JpaRepository<Directory, DirectoryId> {
+    List<Directory> findDirectoryRecordsByParentId(DirectoryId parentId);
 }

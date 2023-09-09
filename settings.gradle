@@ -3,4 +3,4 @@ include 'api-gateway'
 include 'authentication-service'
 include 'registration-service'
 include 'storage-service'
-
+include 'common'

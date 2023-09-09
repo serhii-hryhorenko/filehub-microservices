@@ -4,9 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * Parametrized interface for providing access to {@link FileRecord}.
+ * Parametrized interface for providing access to {@link File}.
  */
 @Repository("fileRepository")
-public interface FileRepository extends JpaRepository<FileRecord, FileId> {
-    FileRecord findFileRecordById(FileId id);
+public interface FileRepository extends JpaRepository<File, FileId> {
+    File findFileRecordById(FileId id);
 }
