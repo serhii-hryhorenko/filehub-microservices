@@ -8,6 +8,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import ua.edu.ukma.common.model.user.UserId;
+import ua.edu.ukma.persistent.directory.DirectoryId;
 
 @Entity
 @Table(name = "file")
@@ -21,6 +23,12 @@ public class File {
     private FileId id;
     @Column(name = "name")
     private String name;
-    @Column(name = "extension")
-    private String extension;
+    @Column(name = "directory")
+    private DirectoryId directoryId;
+    @Column(name = "ownerId")
+    private UserId ownerId;
+    @Column(name = "size")
+    private long size;
+    @Column(name = "mimetype")
+    private String mimetype;
 }

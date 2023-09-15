@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import ua.edu.ukma.common.model.UserId;
-import ua.edu.ukma.persistent.directory.DirectoryId;
 
 import java.io.Serializable;
 
@@ -16,8 +14,5 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FileId implements Serializable {
-    private DirectoryId parentId;
-    private UserId owner;
     private long hashedName;
-
 }
