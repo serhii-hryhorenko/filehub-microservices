@@ -1,4 +1,4 @@
-package ua.edu.ukma.persistent;
+package ua.edu.ukma.common.model.user;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EmbeddedId;
@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import ua.edu.ukma.common.model.UserId;
 
 
 /**
@@ -29,7 +28,6 @@ public class User {
 
     @Column(name = "last_name")
     private String lastName;
-
 
     @Column(name = "password")
     private String passwordHash;

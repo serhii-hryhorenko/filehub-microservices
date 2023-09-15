@@ -1,4 +1,4 @@
-package ua.edu.ukma.common.model;
+package ua.edu.ukma.common.model.user;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
