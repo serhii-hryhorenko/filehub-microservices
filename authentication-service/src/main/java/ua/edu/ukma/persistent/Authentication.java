@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import ua.edu.ukma.common.model.UserId;
+import ua.edu.ukma.common.model.user.UserId;
 
 /**
  * Authorized user record representation from database.
